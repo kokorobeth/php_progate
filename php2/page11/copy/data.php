@@ -1,11 +1,10 @@
 <?php 
-require_once('person.php');
+require_once('menu.php');
 
-$aziz = new Person('Aziz', 30, 'Jakarta');
-$budi = new Person('Budi', 29, 'Malang');
-$catur = new Person('Catur', 34, 'Gresik');
-$asep = new Person('Asep', 27, 'Bandung');
+$juice = new Menu('JUS',6,'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/php/juice.png');
+$coffee = new Menu('KOPI',5,'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/php/coffee.png');
+$curry = new Menu('GULAI',9,'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/php/curry.png');
+$pasta = new Menu('PASTA',12,'https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/php/pasta.png');
 
-$persons = array($aziz, $budi, $catur, $asep);
-
+$menus = array($juice, $coffee, $curry, $pasta);
 ?>

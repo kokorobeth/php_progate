@@ -33,9 +33,9 @@ $menus = array($juice, $coffee, $curry, $pasta);
     <h1 class="logo">Café Progate</h1>
     <div class="menu-items">
       <!-- Ketik loop foreach -->
-      <?php foreach($menus as $menu): ?>
-      <h3><?php echo $menu->name ?></h3>
-      <?php endforeach?>
+        <?php foreach($menus as $menu): ?>
+        <h3><?php echo $menu->name ?></h3>
+        <?php endforeach?>
     </div>
   </div>
 </body>

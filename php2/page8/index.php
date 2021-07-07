@@ -13,7 +13,6 @@ class Menu {
 
 $curry = new Menu('GULAI');
 $pasta = new Menu('PASTA');
-
 ?>
 
 <!-- Cetak property name milik $curry didalam tag <p> -->
