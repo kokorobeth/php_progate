@@ -9,11 +9,12 @@
 
   <?php
 
-    $scores = array('Matematika' => 70, 'Bahasa' => 90, 'Sains' => 80);
+    $nilai = ['Matematika' => 80, 'Fisika' => 85, 'Kimia' => 85];
 
     // Tulis loop foreach dibawah
-    foreach($scores as $key => $value ) {
-      echo $key .' : '.$value. ' ';
+    foreach($nilai as $key => $value) {
+      echo $key ." : ". $value;
+      echo '<br>';
     }
     
   ?>

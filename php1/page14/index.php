@@ -10,8 +10,8 @@
   <?php
 
     // Ketik loop for dibawah
-    for ($i = 1; $i <= 1000; $i++) {
-      if($i > 500) {
+    for ($i = 0; $i <= 1000; $i++) {
+      if ($i > 500) {
         break;
       }
       echo $i;
