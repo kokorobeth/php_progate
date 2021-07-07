@@ -43,8 +43,9 @@
         <select name="category">
           <option value="pilih">Alasan menghubungi kami</option>
           <?php
-            foreach ($types as $type)
-            echo "<option value = '{$type}'>{$type}</option>"
+            foreach ($types as $type) {
+            echo "<option value = '{$type}'>{$type}</option>";
+            }
           ?>
         </select>
 

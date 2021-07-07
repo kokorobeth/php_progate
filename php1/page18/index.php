@@ -25,7 +25,7 @@
     
     // Panggil function printRectangleArea dengan (5, 10) sebagai argument
     printRectangleArea(5, 10);
-    
+
   ?>
 
 </body>

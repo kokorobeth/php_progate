@@ -9,22 +9,21 @@
 
   <?php
     
-    $str = 'progate';
-    
+
+    $progate = 'progate';
     // Cetak panjang $str menggunakan strlen
-    echo strlen($str);
+    echo strlen($progate);
     
     echo '<br>';
     
-    $array = array('HTML', 'CSS', 'PHP');
-    
+    $array = ['PHP', 'NodeJS', 'Java'];
     // Cetak jumlah element di $array menggunakan count
     echo count($array);
-    
+
     echo '<br>';
     
     // Cetak angka acak antara 10 dan 15 menggunakan rand
-    echo rand(10, 15);
+  echo rand(10, 12);
     
   ?>
 
