@@ -19,5 +19,4 @@ echo $curry->name;
 echo '<br>';
 // Cetak property name dari $pasta
 echo $pasta->name;
-
 ?>
